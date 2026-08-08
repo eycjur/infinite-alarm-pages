@@ -29,15 +29,17 @@ body:
     id: ios-version
     attributes:
       label: iOSバージョン / iOS version
+      description: アプリ内「このアプリについて」画面に表示されます / Shown in the app's About screen
       placeholder: iOS 26.1
   - type: input
     id: device
     attributes:
       label: 機種 / Device
-      placeholder: iPhone 17 Pro
+      description: アプリ内「このアプリについて」画面に表示されます / Shown in the app's About screen
+      placeholder: iPhone17,1
   - type: input
     id: app-version
     attributes:
       label: アプリのバージョン / App version
       description: アプリ内「このアプリについて」画面に表示されます / Shown in the app's About screen
-      placeholder: 1.0 (1)
+      placeholder: "1.0"
