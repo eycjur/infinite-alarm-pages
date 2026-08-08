@@ -1,0 +1,43 @@
+name: 不具合報告 / Bug Report
+description: アプリの不具合を報告する / Report a bug in the app
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ご報告ありがとうございます。分かる範囲で記入してください。
+        Thank you for your report. Please fill in what you can.
+  - type: textarea
+    id: description
+    attributes:
+      label: 不具合の内容 / What happened
+      description: 何が起きたか、期待していた動作との違いを書いてください / Describe what happened and what you expected instead
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現手順 / Steps to reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: input
+    id: ios-version
+    attributes:
+      label: iOSバージョン / iOS version
+      placeholder: iOS 26.1
+  - type: input
+    id: device
+    attributes:
+      label: 機種 / Device
+      placeholder: iPhone 17 Pro
+  - type: input
+    id: app-version
+    attributes:
+      label: アプリのバージョン / App version
+      description: アプリ内「このアプリについて」画面に表示されます / Shown in the app's About screen
+      placeholder: 1.0 (1)
