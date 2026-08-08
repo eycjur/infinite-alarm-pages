@@ -35,8 +35,7 @@ body:
     id: device
     attributes:
       label: 機種 / Device
-      description: アプリ内「このアプリについて」画面に表示されます / Shown in the app's About screen
-      placeholder: iPhone17,1
+      placeholder: iPhone 16e
   - type: input
     id: app-version
     attributes:

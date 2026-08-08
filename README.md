@@ -1,7 +1,7 @@
 # infinite-alarm-pages
 
-iOSアプリ「無限アラーム (Infinite Alarm)」のサポート・プライバシーポリシーページです。GitHub Pagesで公開されます。
+Support and privacy policy pages for the iOS app "Infinite Alarm" (無限アラーム), published via GitHub Pages.
 
-- 公開URL: https://eycjur.github.io/infinite-alarm-pages/ （ブラウザの言語設定で [ja/](https://eycjur.github.io/infinite-alarm-pages/ja/) と [en/](https://eycjur.github.io/infinite-alarm-pages/en/) に振り分けます）
-- 不具合報告・機能要望はこのリポジトリの [Issues](https://github.com/eycjur/infinite-alarm-pages/issues) へ（アプリ本体のリポジトリはprivateのため、こちらが公開の問い合わせ窓口です）
-- ページを編集する場合は、日本語版（`ja/`）と英語版（`en/`）の両方を更新してください
+- Published at: https://eycjur.github.io/infinite-alarm-pages/ (redirects to [ja/](https://eycjur.github.io/infinite-alarm-pages/ja/) or [en/](https://eycjur.github.io/infinite-alarm-pages/en/) based on the browser language)
+- Bug reports and feature requests are welcome in this repository's [Issues](https://github.com/eycjur/infinite-alarm-pages/issues) (the app's main repository is private, so this is the public contact point)
+- When editing pages, update both the Japanese (`ja/`) and English (`en/`) versions
