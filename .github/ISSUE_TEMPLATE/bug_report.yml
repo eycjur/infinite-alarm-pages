@@ -7,7 +7,10 @@ body:
     attributes:
       value: |
         ご報告ありがとうございます。分かる範囲で記入してください。
+        **このページの投稿内容は誰でも閲覧できます。** 診断情報のアラームラベル名は自動的に伏せ字になりますが、個人的な内容が含まれていないかご確認のうえ投稿してください。
+
         Thank you for your report. Please fill in what you can.
+        **Everything posted here is publicly visible.** Alarm label names in the diagnostics are automatically redacted, but please review the content for anything personal before submitting.
   - type: textarea
     id: description
     attributes:
@@ -42,3 +45,8 @@ body:
       label: アプリのバージョン / App version
       description: アプリ内「このアプリについて」画面に表示されます / Shown in the app's About screen
       placeholder: "1.0"
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: 診断情報 / Diagnostics
+      description: アプリの「このアプリについて」→「診断情報を書き出す」で保存したファイルを、この欄に添付してください（欄をタップしてファイルを選択、またはドラッグ＆ドロップ） / Attach the file saved via "Export Diagnostics" in the app's About screen (tap the field to select the file, or drag and drop)
